@@ -9,7 +9,7 @@ Installation
 MAC:
 ```
 sudo git clone git@github.com:rgehring/motivation_otd.git /usr/local/motivation_otd
-sudo ln -s /usr/local/motivation_otd/motivate /user/local/bin
+sudo ln -s /usr/local/motivation_otd/motivate /usr/local/bin
 ```
 put in ~/.bash_profile: 
 
