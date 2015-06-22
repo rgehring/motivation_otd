@@ -4,18 +4,16 @@ Motivation of the Day
 This bash script prints out a motivating quote on terminal startup.
 
 Installation
--------------
+------------
 
-MAC:
 ```
-sudo git clone git@github.com:rgehring/motivation_otd.git /usr/local/motivation_otd
-sudo ln -s /usr/local/motivation_otd/motivate /usr/local/bin/motivate
+git clone https://github.com/rgehring/motivation_otd.git ~/motd
 ```
+
 put in ~/.bash_profile: 
 
 ```
-export MOTIVATE_PATH=/usr/local/motivation_otd/quotes.txt
-motivate $MOTIVATE_PATH
+~/motd/motivate ~/motd/quotes.txt
 ```
 
 
