@@ -1,2 +1,8 @@
 #!/usr/bin/env bash
+echo
+echo
+echo
 head -$(($RANDOM % $(wc -l < $1 ) +1 )) $1 | tail -1
+echo
+echo
+echo
